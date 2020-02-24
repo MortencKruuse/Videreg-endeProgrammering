@@ -10,7 +10,8 @@ public class TUI {
         String cpr;
         System.out.print("Type in CPR: ");
         cpr = scan.nextLine().trim();
-        System.out.println(funk.getName(cpr) + "'s BMI is: " + funk.getBMI(cpr) + "\n" + funk.getTextualBMI(cpr));
+        String name = funk.getName(cpr);
+        System.out.println(name + "'s BMI is: " + funk.getBMI(cpr) + "\nThe description for " + name + "'s BMI is: \"" + funk.getTextualBMI(cpr) + "\"");
         scan.close();
     }
 }
