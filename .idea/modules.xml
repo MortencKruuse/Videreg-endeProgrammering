@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lektion 4/Lektion 4.iml" filepath="$PROJECT_DIR$/Lektion 4/Lektion 4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Videreg-endeProgrammering.iml" filepath="$PROJECT_DIR$/Videreg-endeProgrammering.iml" />
     </modules>
   </component>
