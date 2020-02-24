@@ -1,7 +1,7 @@
 public class Funktionalitet implements IFunktionalitet {
     private IData data;
-    public Funktionalitet(){
-        data = new Data();
+    public Funktionalitet(IData data){
+        this.data = data;
     }
     @Override
     public double getBMI(String cpr) {
