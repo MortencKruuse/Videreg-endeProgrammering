@@ -1,3 +1,5 @@
+package BMI;
+
 import java.util.Scanner;
 
 public class TUI {
@@ -11,7 +13,7 @@ public class TUI {
         System.out.print("Type in CPR: ");
         cpr = scan.nextLine().trim();
         String name = funk.getName(cpr);
-        System.out.println(name + "'s BMI is: " + funk.getBMI(cpr) + "\nThe description for " + name + "'s BMI is: \"" + funk.getTextualBMI(cpr) + "\"");
+        System.out.println(name + "'s BMI_excep.BMI is: " + funk.getBMI(cpr)  + "\nThe description for " + name + "'s BMI_excep.BMI is: \"" + funk.getTextualBMI(cpr) + "\"");
         scan.close();
     }
 }

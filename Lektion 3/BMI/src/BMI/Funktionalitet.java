@@ -1,3 +1,5 @@
+package BMI;
+
 public class Funktionalitet implements IFunktionalitet {
     private IData data;
     public Funktionalitet(IData data){
@@ -13,15 +15,14 @@ public class Funktionalitet implements IFunktionalitet {
         double bmi = getBMI(cpr);
         if (bmi < 16.5)
             return "Seriously Underweight";
-        else if (bmi >= 16.5 && bmi < 18.5)
+        else if (bmi < 18.5)
             return "Underweight";
-        else if (bmi >= 18.5 && bmi < 24.99)
+        else if (bmi < 24.99)
             return "Normal";
-        else if (bmi >= 25 && bmi < 30)
+        else if (bmi < 30)
             return "Overweight";
-        else if (bmi >= 30)
+        else
             return "Obese";
-        return null;
     }
 
     @Override

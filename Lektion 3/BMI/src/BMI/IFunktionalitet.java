@@ -1,3 +1,5 @@
+package BMI;
+
 public interface IFunktionalitet {
     double getBMI(String cpr);
     String getTextualBMI(String cpr);

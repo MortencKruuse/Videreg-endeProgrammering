@@ -1,3 +1,5 @@
+package BMI;
+
 import java.util.ArrayList;
 
 public class Data implements IData {
